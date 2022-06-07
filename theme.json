@@ -1,0 +1,146 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "spacing": {
+      "blockGap": null
+    },
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#b04409",
+          "name": "Primary"
+        },
+        {
+          "slug": "bold",
+          "color": "#111111",
+          "name": "Bold"
+        },
+        {
+          "slug": "foreground",
+          "color": "#333333",
+          "name": "Foreground"
+        },
+        {
+          "slug": "background",
+          "color": "#ffffff",
+          "name": "Background"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "750px",
+      "wideSize": "1200px"
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "slug": "dm-sans",
+          "name": "DM Sans",
+          "fontFace": [
+            {
+              "fontFamily": "DM Sans",
+              "fontDisplay": "swap",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/dmsans-regular.woff2"]
+            },
+            {
+              "fontFamily": "DM Sans",
+              "fontDisplay": "swap",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/dmsans-bold.woff2"]
+            }
+          ]
+        },
+        {
+          "fontFamily": "\"Noto Sans\", \"Noto Sans Thai\", sans-serif",
+          "slug": "noto-sans",
+          "name": "Noto Sans (EN-TH)",
+          "fontFace": [
+            {
+              "fontFamily": "Noto Sans",
+              "fontDisplay": "swap",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/notosans-regular.woff2"]
+            },
+            {
+              "fontFamily": "Noto Sans",
+              "fontDisplay": "swap",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/notosans-bold.woff2"]
+            },
+            {
+              "fontFamily": "Noto Sans Thai",
+              "fontDisplay": "swap",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/notosansthai-regular.woff2"]
+            },
+            {
+              "fontFamily": "Noto Sans Thai",
+              "fontDisplay": "swap",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/notosansthai-bold.woff2"]
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Small",
+          "size": "clamp(14px, 2vw, 16px)",
+          "slug": "small"
+        },
+        {
+          "name": "Normal",
+          "size": "clamp(16px, 3vw, 18px)",
+          "slug": "normal"
+        },
+        {
+          "name": "Medium",
+          "size": "clamp(18px, 3vw, 22px)",
+          "slug": "medium"
+        },
+        {
+          "name": "Large",
+          "size": "clamp(20px, 4vw, 26px)",
+          "slug": "large"
+        }
+      ]
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "content",
+      "title": "Content"
+    },
+    {
+      "name": "loop",
+      "title": "Loop"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ]
+}

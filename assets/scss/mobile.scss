@@ -1,0 +1,48 @@
+@import "global";
+html {
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  --wp--style--block-gap: var(--s-space);
+  color: var(--wp--preset--color--foreground);
+  background-color: var(--wp--preset--color--background);
+  font-size: var(--wp--preset--font-size--normal);
+}
+nav,
+button,
+label,
+header,
+.wp-block-post-terms {
+  color: var(--wp--preset--color--bold);
+}
+a {
+  color: var(--wp--preset--color--bold);
+  &:hover {
+    opacity: 0.8;
+    text-decoration: underline 0.08em;
+    text-underline-offset: 0.1em;
+    color: var(--wp--preset--color--primary);
+  }
+  &:active {
+    opacity: 0.6;
+  }
+}
+.btn-primary {
+  a,
+  .wp-block-navigation-item__content {
+    background-color: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--background);
+    padding: 0.5em 1em;
+  }
+}
+.wp-site-blocks {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  .admin-bar & {
+    height: calc(100% - var(--wp-admin--admin-bar--height));
+  }
+}
+.site-footer {
+  margin-top: auto;
+}
