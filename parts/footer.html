@@ -1,24 +1,27 @@
-<!-- wp:group {"layout":{"inherit":"default"}} -->
-<div class="wp-block-group">
-    <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"5%"}}} -->
-    <div class="wp-block-columns alignwide">
-        <!-- wp:column -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"24px","right":"16px","bottom":"24px","left":"16px"}}},"backgroundColor":"primary","textColor":"background","layout":{"inherit":"default"}} -->
+<div class="wp-block-group has-background-color has-primary-background-color has-text-color has-background" style="padding-top:24px;padding-right:16px;padding-bottom:24px;padding-left:16px">
+    <!-- wp:columns {"isStackedOnMobile":false,"align":"wide","style":{"spacing":{"blockGap":"5%"}},"className":"m-0 items-center"} -->
+    <div class="wp-block-columns alignwide is-not-stacked-on-mobile m-0 items-center">
+        <!-- wp:column {"layout":{"inherit":false}} -->
         <div class="wp-block-column">
-            <!-- wp:pattern {"slug":"remote/tags"} /-->
+            <!-- wp:paragraph {"className":"m-0","fontSize":"tiny"} -->
+            <p class="m-0 has-tiny-font-size">©2022, ALL RIGHTS RESERVED.</p>
+            <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->
         <!-- wp:column -->
         <div class="wp-block-column">
-            <!-- wp:pattern {"slug":"remote/categories"} /-->
+            <!-- wp:social-links {"iconColor":"background","iconColorValue":"#ffffff","openInNewTab":true,"className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"right","flexWrap":"wrap","orientation":"horizontal"}} -->
+            <ul class="wp-block-social-links has-icon-color is-style-logos-only">
+                <!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+                <!-- wp:social-link {"url":"https://twitter.com/","service":"twitter"} /-->
+                <!-- wp:social-link {"url":"https://www.youtube.com/","service":"youtube"} /-->
+                <!-- wp:social-link {"url":"https://www.instagram.com/","service":"instagram"} /-->
+            </ul>
+            <!-- /wp:social-links -->
         </div>
         <!-- /wp:column -->
     </div>
     <!-- /wp:columns -->
 </div>
 <!-- /wp:group -->
-<!-- wp:spacer {"height":112} -->
-<div style="height:112px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size">Proudly Powered by <a href="https://wordpress.org" rel="nofollow">WordPress</a></p>
-<!-- /wp:paragraph -->
