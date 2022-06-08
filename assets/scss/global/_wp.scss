@@ -41,6 +41,16 @@ body .wp-block-columns {
   gap: var(--s-space);
 }
 
+// GALLERY
+body {
+  --wp--style--gallery-gap-default: 6px;
+}
+
+// SOCIAL LINKS
+.wp-block-social-links {
+  margin: 0;
+}
+
 /*
  * Alignment styles.
  * These rules are temporary.

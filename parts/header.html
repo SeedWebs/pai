@@ -1,13 +1,13 @@
 <!-- wp:group {"layout":{"inherit":true}} -->
 <div class="wp-block-group">
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0.8rem","bottom":"0.8rem"}}},"className":"site-header","layout":{"type":"flex","justifyContent":"space-between"}} -->
-	<div class="wp-block-group alignwide site-header" style="padding-top:0.8rem;padding-bottom:0.8rem">
+	<!-- wp:group {"align":"full","style":{"color":{"background":"#ffffffcc"}},"className":"is-fixed","layout":{"type":"flex","justifyContent":"space-between"}} -->
+	<div class="wp-block-group alignfull is-fixed has-background" style="background-color:#ffffffcc">
 		<!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
 		<div class="wp-block-group">
 			<!-- wp:site-logo {"width":32,"shouldSyncIcon":true} /-->
 			<!-- wp:site-title {"style":{"spacing":{"margin":{"right":"16px","left":"6px"}}},"fontSize":"large"} /-->
-			<!-- wp:paragraph {"className":"_desktop","fontSize":"small"} -->
-			<p class="_desktop has-small-font-size">DEMO SITE FOR RESORT &amp; HOMESTAY</p>
+			<!-- wp:paragraph {"className":"site-desc _desktop","fontSize":"tiny"} -->
+			<p class="site-desc _desktop has-tiny-font-size">DEMO SITE FOR RESORT &amp; HOMESTAY</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -16,6 +16,7 @@
 		<!-- wp:navigation-link {"label":"Room Rate","url":"#rate","kind":"custom","isTopLevelLink":true} /-->
 		<!-- wp:navigation-link {"label":"Gallery","url":"#gallery","kind":"custom","isTopLevelLink":true} /-->
 		<!-- wp:navigation-link {"label":"Contact","url":"#contact","kind":"custom","isTopLevelLink":true} /-->
+		<!-- wp:navigation-link {"label":"Book now","url":"#contact","kind":"custom","isTopLevelLink":true,"className":"is-style-button-fill"} /-->
 		<!-- /wp:navigation -->
 	</div>
 	<!-- /wp:group -->

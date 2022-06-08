@@ -34,6 +34,11 @@ wp.domReady(() => {
     name: "botom-space",
     label: "Bottom Space",
   });
+  // COLUMNS
+  wp.blocks.registerBlockStyle("core/columns", {
+    name: "botom-space",
+    label: "Bottom Space",
+  });
   // HEADING
   wp.blocks.registerBlockStyle("core/heading", {
     name: "botom-space",
@@ -44,10 +49,19 @@ wp.domReady(() => {
     name: "botom-space",
     label: "Bottom Space",
   });
-  // COVER
+  // IMAGE
   wp.blocks.registerBlockStyle("core/image", {
     name: "block",
     label: "Block",
+  });
+  // NAV
+  wp.blocks.registerBlockStyle("core/navigation-link", {
+    name: "button-fill",
+    label: "Fill",
+  });
+  wp.blocks.registerBlockStyle("core/navigation-link", {
+    name: "button-outline",
+    label: "Outline",
   });
   // MEDIA & TEXT
   wp.blocks.registerBlockStyle("core/media-text", {

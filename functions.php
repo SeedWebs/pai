@@ -22,8 +22,8 @@ if ( ! function_exists( 'pai_styles' ) ) :
 	function pai_styles() {
 		$ver = wp_get_theme()->get( 'Version' );
 		$url = get_template_directory_uri() . '/assets/css/';
-		wp_enqueue_style('maled-mobile', $url . 'mobile.css', array(), $ver );
-		wp_enqueue_style('maled-desktop', $url . 'desktop.css', array(), $ver , '(min-width: 992px)');
+		wp_enqueue_style('pai-mobile', $url . 'mobile.css', array(), $ver );
+		wp_enqueue_style('pai-desktop', $url . 'desktop.css', array(), $ver , '(min-width: 992px)');
 	}
 endif;
 add_action( 'wp_enqueue_scripts', 'pai_styles' );
@@ -33,7 +33,7 @@ if ( ! function_exists( 'pai_block_styles' ) ) :
 	function pai_block_styles() {
 		$ver = wp_get_theme()->get( 'Version' );
         $url = get_template_directory_uri() . '/assets/js/';
-		wp_enqueue_script('maled-block-styles',  $url . 'block-styles.js' , array( 'wp-blocks' ), $ver, true );
+		wp_enqueue_script('pai-block-styles',  $url . 'block-styles.js' , array( 'wp-blocks' ), $ver, true );
 	}
 endif;
 add_action( 'enqueue_block_editor_assets', 'pai_block_styles' );

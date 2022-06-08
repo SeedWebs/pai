@@ -52,3 +52,18 @@
     display: block;
   }
 }
+
+// CORE/NAVIGATION-LINKE
+.is-style-button-fill {
+  span {
+    display: inline-flex;
+    padding: 0.3em 1.2em;
+    background-color: var(--wp--preset--color--primary);
+    border-radius: 1009px;
+    background-color: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--background);
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}

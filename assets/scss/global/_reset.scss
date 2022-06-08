@@ -45,6 +45,9 @@ h6 {
 }
 
 // MORE BY SEEDWEBS.COM
+figure {
+  margin: 0;
+}
 img {
   height: auto;
 }
@@ -52,7 +55,4 @@ a {
   text-decoration: none;
   transition: 0.3s ease;
   cursor: pointer;
-}
-html {
-  scroll-behavior: smooth;
 }

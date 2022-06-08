@@ -1,5 +1,4 @@
 {
-  "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 2,
   "settings": {
     "spacing": {
@@ -101,6 +100,11 @@
       ],
       "fontSizes": [
         {
+          "name": "Tiny",
+          "size": "clamp(11px, 2vw, 13px)",
+          "slug": "tiny"
+        },
+        {
           "name": "Small",
           "size": "clamp(14px, 2vw, 16px)",
           "slug": "small"
@@ -121,6 +125,11 @@
           "slug": "large"
         }
       ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--dm-sans) , var(--wp--preset--font-family--noto-sans)"
     }
   },
   "templateParts": [
