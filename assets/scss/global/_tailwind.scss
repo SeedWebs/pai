@@ -1,3 +1,80 @@
+// REF - https://tailwindcss.com/
+
+// ALIGN
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+@mixin s_align {
+  &text-left {
+    text-align: left;
+  }
+  &text-center {
+    text-align: center;
+  }
+  &text-right {
+    text-align: right;
+  }
+}
+
+// JUSTIFY
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+@mixin s_justify {
+  &justify-start {
+    justify-content: flex-start;
+  }
+  &justify-end {
+    justify-content: flex-end;
+  }
+  &justify-center {
+    justify-content: center;
+  }
+}
+
+$sm: 600px; // (Change to fit Blocks)
+$lg: 992px; // (Change to fit Other CSS)
+
+@media (min-width: $sm) {
+  .sm\: {
+    @include s_align;
+  }
+}
+@media (min-width: $sm) {
+  .sm\: {
+    @include s_justify;
+  }
+}
+@media (min-width: $lg) {
+  .lg\: {
+    @include s_align;
+  }
+}
+@media (min-width: $lg) {
+  .lg\: {
+    @include s_justify;
+  }
+}
+
+.w-max {
+  width: max-content !important;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 .m-0 {
   margin: 0 !important;
 }
@@ -22,7 +99,6 @@
     filter: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.04)) drop-shadow(0 4px 3px rgba(0, 0, 0, 0.1));
   }
 }
-
 .items-center {
   align-items: center !important;
 }
