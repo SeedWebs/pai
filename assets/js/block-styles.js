@@ -54,6 +54,11 @@ wp.domReady(() => {
     name: "block",
     label: "Block",
   });
+  // TABLE
+  wp.blocks.registerBlockStyle("core/table", {
+    name: "table-small",
+    label: "Small",
+  });
   // NAV
   wp.blocks.registerBlockStyle("core/navigation-link", {
     name: "button-fill",
