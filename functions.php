@@ -1,11 +1,11 @@
 <?php
 /**
- * Maled functions and definitions
+ * Pai functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Maled
- * @since Maled 1.0.0
+ * @package Pai
+ * @since Pai 0.1.0
  */
 
 // THEME SUPPORT

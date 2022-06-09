@@ -1,4 +1,4 @@
-=== Maled ===
+=== Pai ===
 Contributors: seedwebs
 Requires at least: 5.9
 Tested up to: 5.9
@@ -11,7 +11,7 @@ Starter Block-Based WordPress Theme with Dark Mode, by Seed Webs.
 
 == Description ==
 
-Maled is a starter block theme that supports full-site editing. It comes with a set of minimal templates and design settings that can be manipulated through Global Styles.
+Pai is a starter block theme that supports full-site editing. It comes with a set of minimal templates and design settings that can be manipulated through Global Styles.
 
 == Changelog ==
 
@@ -20,8 +20,8 @@ Maled is a starter block theme that supports full-site editing. It comes with a 
 
 == Copyright ==
 
-Maled WordPress Theme, (C) 2022 Seed Webs, Co., Ltd.
-Maled is distributed under the terms of the GNU GPL.
+Pai WordPress Theme, (C) 2022 Seed Webs, Co., Ltd.
+Pai is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
