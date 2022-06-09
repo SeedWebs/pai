@@ -39,6 +39,7 @@ body .wp-block-media-text {
 // COLUMNS
 body .wp-block-columns {
   gap: var(--s-space);
+  max-width: 100%;
 }
 
 // GALLERY
