@@ -145,7 +145,7 @@
 			"background": "var:preset|color|background",
 			"text": "var:preset|color|foreground"
 		},
-		"css": "body {\n  line-height: 1.5;\n  -webkit-font-smoothing: auto;\n  -moz-osx-font-smoothing: auto;\n  overflow-x: hidden;\n}\n.wp-site-blocks {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n.admin-bar .wp-site-blocks {\n    min-height: calc(100vh - var(--wp-admin--admin-bar--height));\n  }\n.site-footer {\n  margin-top: auto;\n}",
+		"css": "/* Theme Custom CSS start */\nhtml {\nfont-size: var(--wp--preset--font-size--medium);\n}\nbody {\n  line-height: 1.5;\n  -webkit-font-smoothing: auto;\n  -moz-osx-font-smoothing: auto;\n  overflow-x: hidden;\n}\n.wp-site-blocks {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n.admin-bar .wp-site-blocks {\n    min-height: calc(100vh - var(--wp-admin--admin-bar--height));\n  }\n.site-footer {\n  margin-top: auto;\n}\n/* Theme Custom CSS end */",
 		"elements": {
 			"button": {
 				"color": {
@@ -163,7 +163,13 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "0px"
+			"blockGap": "var:preset|spacing|50",
+			"padding": {
+				"bottom": "0px",
+				"left": "0px",
+				"right": "0px",
+				"top": "0px"
+			}
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|dm-sans"
