@@ -1,155 +1,184 @@
 {
-  "version": 2,
-  "settings": {
-    "spacing": {
-      "blockGap": null
-    },
-    "appearanceTools": true,
-    "color": {
-      "palette": [
-        {
-          "slug": "primary",
-          "color": "#b04409",
-          "name": "Primary"
-        },
-        {
-          "slug": "bold",
-          "color": "#111111",
-          "name": "Bold"
-        },
-        {
-          "slug": "foreground",
-          "color": "#333333",
-          "name": "Foreground"
-        },
-        {
-          "slug": "background",
-          "color": "#ffffff",
-          "name": "Background"
-        }
-      ]
-    },
-    "layout": {
-      "contentSize": "750px",
-      "wideSize": "1200px"
-    },
-    "typography": {
-      "fontFamilies": [
-        {
-          "fontFamily": "\"DM Sans\", sans-serif",
-          "slug": "dm-sans",
-          "name": "DM Sans",
-          "fontFace": [
-            {
-              "fontFamily": "DM Sans",
-              "fontDisplay": "swap",
-              "fontWeight": "400",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": ["file:./assets/fonts/dmsans-regular.woff2"]
-            },
-            {
-              "fontFamily": "DM Sans",
-              "fontDisplay": "swap",
-              "fontWeight": "700",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": ["file:./assets/fonts/dmsans-bold.woff2"]
-            }
-          ]
-        },
-        {
-          "fontFamily": "\"Noto Sans\", \"Noto Sans Thai\", sans-serif",
-          "slug": "noto-sans",
-          "name": "Noto Sans (EN-TH)",
-          "fontFace": [
-            {
-              "fontFamily": "Noto Sans",
-              "fontDisplay": "swap",
-              "fontWeight": "400",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": ["file:./assets/fonts/notosans-regular.woff2"]
-            },
-            {
-              "fontFamily": "Noto Sans",
-              "fontDisplay": "swap",
-              "fontWeight": "700",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": ["file:./assets/fonts/notosans-bold.woff2"]
-            },
-            {
-              "fontFamily": "Noto Sans Thai",
-              "fontDisplay": "swap",
-              "fontWeight": "400",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": ["file:./assets/fonts/notosansthai-regular.woff2"]
-            },
-            {
-              "fontFamily": "Noto Sans Thai",
-              "fontDisplay": "swap",
-              "fontWeight": "700",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "src": ["file:./assets/fonts/notosansthai-bold.woff2"]
-            }
-          ]
-        }
-      ],
-      "fontSizes": [
-        {
-          "name": "Tiny",
-          "size": "clamp(11px, 2vw, 13px)",
-          "slug": "tiny"
-        },
-        {
-          "name": "Small",
-          "size": "clamp(14px, 2vw, 16px)",
-          "slug": "small"
-        },
-        {
-          "name": "Normal",
-          "size": "clamp(16px, 3vw, 18px)",
-          "slug": "normal"
-        },
-        {
-          "name": "Medium",
-          "size": "clamp(18px, 3vw, 22px)",
-          "slug": "medium"
-        },
-        {
-          "name": "Large",
-          "size": "clamp(20px, 4vw, 26px)",
-          "slug": "large"
-        }
-      ]
-    }
-  },
-  "styles": {
-    "typography": {
-      "fontFamily": "var(--wp--preset--font-family--dm-sans) , var(--wp--preset--font-family--noto-sans)"
-    }
-  },
-  "templateParts": [
-    {
-      "name": "header",
-      "title": "Header",
-      "area": "header"
-    },
-    {
-      "name": "content",
-      "title": "Content"
-    },
-    {
-      "name": "loop",
-      "title": "Loop"
-    },
-    {
-      "name": "footer",
-      "title": "Footer",
-      "area": "footer"
-    }
-  ]
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#394b41",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#222222",
+					"name": "Foreground",
+					"slug": "foreground"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Background",
+					"slug": "background"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "750px",
+			"wideSize": "1120px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "DM Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/dmsans-regular.woff2"
+							]
+						},
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "DM Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/dmsans-bold.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"DM Sans\", sans-serif",
+					"name": "DM Sans",
+					"slug": "dm-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "Noto Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/notosans-regular.woff2"
+							]
+						},
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "Noto Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/notosans-bold.woff2"
+							]
+						},
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "Noto Sans Thai",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/notosansthai-regular.woff2"
+							]
+						},
+						{
+							"fontDisplay": "swap",
+							"fontFamily": "Noto Sans Thai",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/notosansthai-bold.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Noto Sans\", \"Noto Sans Thai\", sans-serif",
+					"name": "Noto Sans (EN-TH)",
+					"slug": "noto-sans"
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "clamp(11px, 2vw, 13px)",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "clamp(16px, 3vw, 18px)",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "clamp(18px, 3vw, 22px)",
+					"slug": "large"
+				},
+				{
+					"name": "Extra Large",
+					"size": "clamp(22px, 4vw, 28px)",
+					"slug": "extralarge"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var:preset|color|background",
+			"text": "var:preset|color|foreground"
+		},
+		"css": "body {\n  line-height: 1.5;\n  -webkit-font-smoothing: auto;\n  -moz-osx-font-smoothing: auto;\n  overflow-x: hidden;\n}\n.wp-site-blocks {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n.admin-bar .wp-site-blocks {\n    min-height: calc(100vh - var(--wp-admin--admin-bar--height));\n  }\n.site-footer {\n  margin-top: auto;\n}",
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var:preset|color|primary",
+					"text": "var:preset|color|background"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|primary"
+				},
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "0px"
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|dm-sans"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
 }

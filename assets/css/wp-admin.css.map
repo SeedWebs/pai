@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AACA,AACE,IADE,CACF,0BAA0B,CAD5B,IAAI,CAEF,8BAA8B,AAAC,CAC7B,MAAM,CAAE,KAAK,CACd",
-    "sources": [
-        "../scss/wp-admin.scss"
-    ],
-    "names": [],
-    "file": "wp-admin.css"
-}

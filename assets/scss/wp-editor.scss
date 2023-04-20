@@ -1,4 +1,4 @@
-@import "mobile";
+@import 'mobile';
 div.wp-site-blocks {
   @media (max-width: 991px) {
     ._desktop {
@@ -16,5 +16,5 @@ div.wp-site-blocks {
   }
 }
 @media (min-width: 992px) {
-  @import "desktop";
+  @import 'desktop';
 }

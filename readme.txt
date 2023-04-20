@@ -1,26 +1,23 @@
-=== Pai ===
+=== pai ===
 Contributors: seedwebs
-Requires at least: 5.9
-Tested up to: 5.9
-Requires PHP: 7.0
-Stable tag: 1.0.0
+Requires at least: 5.8
+Tested up to: 6.2
+Requires PHP: 5.7
 License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
-
-Starter Block-Based WordPress Theme with Dark Mode, by Seed Webs.
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Pai is a starter block theme that supports full-site editing. It comes with a set of minimal templates and design settings that can be manipulated through Global Styles.
+
 
 == Changelog ==
 
-= 0.1.0 =
+= 0.0.1 =
 * Initial release
 
 == Copyright ==
 
-Pai WordPress Theme, (C) 2022 Seed Webs, Co., Ltd.
+Pai WordPress Theme, (C) 2023 seedwebs
 Pai is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify

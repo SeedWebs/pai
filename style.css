@@ -1,29 +1,16 @@
 /*
 Theme Name: Pai
-Theme URI: https://seedwebs.com/package/pai/
-Author: Seed Webs
-Author URI: https://seedwebs.com
-Description: Starter One Page FSE WordPress Theme.
-Requires at least: 6.0
-Tested up to: 6.0
-Requires PHP: 7.0
-Version: 0.1.0
-License: GNU General Public License v3 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Theme URI: 
+Author: seedwebs
+Author URI: https://seedwebs.com/
+Description: 
+Requires at least: 5.8
+Tested up to: 6.2
+Requires PHP: 5.7
+Version: 0.2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: 
 Text Domain: pai
-Tags: full-site-editing, blog
-
-Pai WordPress Theme, (C) 2021 Seed Webs.
-Pai is distributed under the terms of the GNU GPL.
-
-
-================================================
-
-This theme use SCSS.
-
-All scss files are located in ./assets/scss/ 
-and compiled to ./assets/css/.
-
-================================================
-
+Tags: holiday, wide-blocks, custom-logo, full-site-editing
 */
