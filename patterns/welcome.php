@@ -1,15 +1,15 @@
 <?php
 
 /**
- * Title: Welcome
+ * Title: Welcome to Pai
  * Slug: pai/welcome
- * Category: Pai
+ * Categories: text
  */
 
 ?>
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div id="welcome" class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<div id="story" class="wp-block-group" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:heading {"textAlign":"center"} -->
 <h2 class="wp-block-heading has-text-align-center">WELCOME TO PAI</h2>
 <!-- /wp:heading -->
 
