@@ -9,20 +9,30 @@
 					"slug": "primary"
 				},
 				{
+					"color": "#DDDED7",
+					"name": "BG Alt",
+					"slug": "bg-2"
+				},
+				{
 					"color": "#222222",
-					"name": "Foreground",
-					"slug": "foreground"
+					"name": "Text",
+					"slug": "text-1"
+				},
+				{
+					"color": "#6D7179",
+					"name": "Text Alt",
+					"slug": "text-2"
 				},
 				{
 					"color": "#ffffff",
-					"name": "Background",
-					"slug": "background"
+					"name": "BG",
+					"slug": "bg-1"
 				}
 			]
 		},
 		"layout": {
 			"contentSize": "750px",
-			"wideSize": "1120px"
+			"wideSize": "1128px"
 		},
 		"spacing": {
 			"units": [
@@ -145,7 +155,7 @@
 			"background": "var:preset|color|background",
 			"text": "var:preset|color|foreground"
 		},
-		"css": "html {\n  font-size: var(--wp--preset--font-size--medium);\n  scroll-behavior: smooth;\n  scroll-padding-top: 80px;\n}\nbody {\n  line-height: 1.5;\n  -webkit-font-smoothing: auto;\n  -moz-osx-font-smoothing: auto;\n  overflow-x: hidden;\n}\n.wp-site-blocks {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n.admin-bar .wp-site-blocks {\n  min-height: calc(100vh - var(--wp-admin--admin-bar--height));\n}\n.header-fixed {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  z-index: 8000;\n  margin-left: 0 !important;\n  margin-right: 0 !important;\n  width: 100vw;\n}\n.admin-bar .header-fixed {\n  top: var(--wp-admin--admin-bar--height);\n}\n.site-footer {\n  margin-top: auto;\n}\n",
+		"css": "html {\n  font-size: var(--wp--preset--font-size--medium);\n  scroll-behavior: smooth;\n  scroll-padding-top: 80px;\n}\nbody {\n  line-height: 1.5;\n  -webkit-font-smoothing: auto;\n  -moz-osx-font-smoothing: auto;\n  overflow-x: hidden;\n}\n.wp-site-blocks {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n.admin-bar .wp-site-blocks {\n  min-height: calc(100vh - var(--wp-admin--admin-bar--height));\n}\n.header-fixed {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  z-index: 8000;\n  margin-left: 0 !important;\n  margin-right: 0 !important;\n  width: 100vw;\n}\n.admin-bar .header-fixed {\n  top: var(--wp-admin--admin-bar--height);\n}\n.text-center {\n  text-align: center;\n}\n.site-footer {\n  margin-top: auto;\n}\n",
 		"elements": {
 			"button": {
 				"color": {
