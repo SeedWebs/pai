@@ -1,12 +1,3 @@
-<?php
-
-/**
- * Title: Pai Price Columns
- * Slug: pai/columns
- * Categories: gallery
- */
-
-?>
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div id="price" class="wp-block-group"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}}} -->
 <h2 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0">ROOM RATE</h2>
@@ -29,8 +20,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:image {"id":131,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/room-1.webp" alt="" class="wp-image-131"/></figure>
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:image {"id":131,"sizeSlug":"full","linkDestination":"media"} -->
+<figure class="wp-block-image size-full"><a href="https://pai.test/wp-content/uploads/2023/04/room-1.webp"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/room-1.webp" alt="<?php echo esc_attr_e('Room 1', 'Pai'); ?>" class="wp-image-131"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -47,8 +38,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:image {"id":142,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/room-2.webp" alt="" class="wp-image-142"/></figure>
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:image {"id":142,"sizeSlug":"full","linkDestination":"media"} -->
+<figure class="wp-block-image size-full"><a href="https://pai.test/wp-content/uploads/2023/04/room-2.webp"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/room-2.webp" alt="<?php echo esc_attr_e('Room 2', 'Pai'); ?>" class="wp-image-142"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -65,8 +56,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:image {"id":143,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/room-3.webp" alt="" class="wp-image-143"/></figure>
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:image {"id":143,"sizeSlug":"full","linkDestination":"media"} -->
+<figure class="wp-block-image size-full"><a href="https://pai.test/wp-content/uploads/2023/04/room-3.webp"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/room-3.webp" alt="<?php echo esc_attr_e('Room 3', 'Pai'); ?>" class="wp-image-143"/></a></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
