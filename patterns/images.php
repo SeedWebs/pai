@@ -7,7 +7,6 @@
  */
 
 ?>
-
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:media-text {"mediaId":104,"mediaLink":"<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/?attachment_id=104","mediaType":"image","imageFill":false} -->
 <div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/story-1.webp" alt="<?php echo esc_attr_e('Nestled in the heart of nature', 'Pai'); ?>" class="wp-image-104 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading -->
@@ -18,8 +17,8 @@
 <p>Our resort is a true labor of love, built entirely by hand using traditional carpentry techniques and sustainable materials. Our team of expert craftsmen and designers has poured their heart and soul into every detail of the resort's construction, ensuring that every inch reflects our passion for craftsmanship, sustainability, and beauty.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>Our minimalist yet cozy villas offer the perfect blend of luxury and simplicity, with rustic wood finishes, bamboo accents, and breathtaking views of the surrounding landscape. Each villa has been thoughtfully designed to offer a private sanctuary, inviting you to relax and unwind in a serene and tranquil environment.</p>
+<!-- wp:paragraph {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|40"}}}} -->
+<p style="padding-bottom:var(--wp--preset--spacing--40)">Our minimalist yet cozy villas offer the perfect blend of luxury and simplicity, with rustic wood finishes, bamboo accents, and breathtaking views of the surrounding landscape. Each villa has been thoughtfully designed to offer a private sanctuary, inviting you to relax and unwind in a serene and tranquil environment.</p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:media-text -->
 

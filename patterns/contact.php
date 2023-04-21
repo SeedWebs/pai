@@ -13,8 +13,8 @@
 <h2 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0">CONTACT & BOOK NOW</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","right":"0","bottom":"var:preset|spacing|50","left":"0"}}}} -->
-<p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--40);margin-right:0;margin-bottom:var(--wp--preset--spacing--50);margin-left:0">Looking to book a room or make a reservation? Our team is standing by to assist you.</p>
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
+<p class="has-text-align-center" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">Looking to book a room or make a reservation? Our team is standing by to assist you.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns {"style":{"spacing":{"padding":{"top":"0","right":"var:preset|spacing|70","bottom":"0","left":"var:preset|spacing|70"}}}} -->

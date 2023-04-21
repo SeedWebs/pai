@@ -1,3 +1,14 @@
+<?php
+
+/**
+ * Title: Pai Price Columns
+ * Slug: pai/columns
+ * Categories: featured
+ * Block Types: core/columns
+ */
+
+?>
+
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div id="price" class="wp-block-group"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}}} -->
 <h2 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0">ROOM RATE</h2>
@@ -8,7 +19,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide"><!-- wp:column {"style":[]} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"borderColor":"bg-2","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-border-color has-bg-2-border-color" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
 <p style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">Standard</p>
@@ -26,7 +37,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"style":[]} -->
+<!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"borderColor":"bg-2","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-border-color has-bg-2-border-color" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
 <p style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">Superior</p>
@@ -44,7 +55,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"style":[]} -->
+<!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"borderColor":"bg-2","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-border-color has-bg-2-border-color" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
 <p style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">Deluxe</p>
