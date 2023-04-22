@@ -9,8 +9,8 @@
 
 ?>
 
-<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|bg-1"}}},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|80"}},"color":{"background":"#26322b"}},"textColor":"bg-1","layout":{"type":"constrained"}} -->
-<div id="gallery" class="wp-block-group has-bg-1-color has-text-color has-background has-link-color" style="background-color:#26322b;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}}} -->
+<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|bg-1"}}},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|80"}}},"backgroundColor":"bg-3","textColor":"bg-1","layout":{"type":"constrained"}} -->
+<div id="gallery" class="wp-block-group has-bg-1-color has-bg-3-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}}} -->
 <h2 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0">GALLERY</h2>
 <!-- /wp:heading -->
 

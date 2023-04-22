@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#0f335c",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#cddde5",
+          "name": "BG Alt",
+          "slug": "bg-2"
+        },
+        {
+          "color": "#081f38",
+          "name": "BG Dark",
+          "slug": "bg-3"
+        },
+        {
+          "color": "#333a44",
+          "name": "Text",
+          "slug": "text-1"
+        },
+        {
+          "color": "#6D7179",
+          "name": "Text Alt",
+          "slug": "text-2"
+        },
+        {
+          "color": "#ffffff",
+          "name": "BG",
+          "slug": "bg-1"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var:preset|font-family|system-font"
+    }
+  },
+  "title": "Blue",
+  "version": 2,
+  "$schema": "https://schemas.wp.org/wp/6.2/theme.json"
+}
