@@ -2,7 +2,7 @@
 
 /**
  * Title: Pai Contact
- * Slug: pai/contact
+ * Slug: pai-page/contact
  * Categories: text
  */
 

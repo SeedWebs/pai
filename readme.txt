@@ -1,4 +1,4 @@
-=== pai ===
+=== Pai Page ===
 Contributors: seedwebs
 Requires at least: 5.8
 Tested up to: 6.2
@@ -26,8 +26,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Copyright ==
 
-Pai WordPress Theme, (C) 2023 seedwebs
-Pai is distributed under the terms of the GNU GPL.
+Pai Page WordPress Theme, (C) 2023 seedwebs
+Pai Page is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

@@ -2,7 +2,7 @@
 
 /**
  * Title: Pai Full Images
- * Slug: pai/fullimages
+ * Slug: pai-page/fullimages
  * Categories: gallery
  */
 

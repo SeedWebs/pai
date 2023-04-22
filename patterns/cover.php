@@ -2,7 +2,7 @@
 
 /**
  * Title: Pai Cover
- * Slug: pai/cover
+ * Slug: pai-page/cover
  * Categories: featured
  * Block Types: core/cover
  */

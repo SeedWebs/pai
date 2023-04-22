@@ -2,14 +2,14 @@
 
 /**
  * Title: Pai Images
- * Slug: pai/images
+ * Slug: pai-page/images
  * Categories: gallery
  */
 
 ?>
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:media-text {"mediaId":104,"mediaLink":"<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/?attachment_id=104","mediaType":"image","imageFill":false} -->
-<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/story-1.webp" alt="<?php echo esc_attr_e('Nestled in the heart of nature', 'pai'); ?>" class="wp-image-104 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/story-1.webp" alt="<?php echo esc_attr_e('Nestled in the heart of nature', 'pai-page'); ?>" class="wp-image-104 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading -->
 <h2 class="wp-block-heading">Nestled in the heart of nature</h2>
 <!-- /wp:heading -->
 
@@ -33,7 +33,7 @@
 
 <!-- wp:paragraph -->
 <p>We take pride in our commitment to sustainability, and every aspect of our resort has been designed to minimize our impact on the environment. From our use of renewable materials to our eco-friendly practices, we strive to create a sustainable and responsible oasis for our guests.</p>
-<!-- /wp:paragraph --></div><figure class="wp-block-media-text__media"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/story-2.webp" alt="<?php echo esc_attr_e('Escape the hustle of city life', 'pai'); ?>" class="wp-image-105 size-full"/></figure></div>
+<!-- /wp:paragraph --></div><figure class="wp-block-media-text__media"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/images/story-2.webp" alt="<?php echo esc_attr_e('Escape the hustle of city life', 'pai-page'); ?>" class="wp-image-105 size-full"/></figure></div>
 <!-- /wp:media-text --></div>
 <!-- /wp:group -->
 

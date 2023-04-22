@@ -2,7 +2,7 @@
 
 /**
  * Title: Welcome to Pai
- * Slug: pai/welcome
+ * Slug: pai-page/welcome
  * Categories: text
  */
 
