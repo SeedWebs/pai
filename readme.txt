@@ -12,7 +12,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
-= 0.0.1 =
+= 0.3.0 =
+* Date: 22 APR 2023
+* New: Styles
+
+= 0.2.0 =
+* Date: 21 APR 2023
+* New: Patterns
+
+= 0.1.0 =
+* Date: 7 JUN 2022
 * Initial release
 
 == Copyright ==
