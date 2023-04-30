@@ -137,6 +137,17 @@
     }
   },
   "styles": {
+    "blocks": {
+      "core/site-title": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      }
+    },
     "color": {
       "background": "var:preset|color|bg-1",
       "text": "var:preset|color|text-1"
@@ -154,7 +165,7 @@
           "text": "var:preset|color|primary"
         },
         "typography": {
-          "textDecoration": "none"
+          "textDecoration": "underline"
         }
       }
     },
